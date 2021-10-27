@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menugrubu"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_anamenu"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Main Menu" />
+        <item
+            android:id="@+id/item_uzunluk"
+            android:icon="@drawable/ic_baseline_stop_24"
+            android:title="Convert Lenght" />
+        <item
+            android:id="@+id/item_agirlik"
+            android:icon="@drawable/ic_baseline_stop_24"
+            android:title="Convert Weight" />
+        <item
+            android:id="@+id/item_sicaklik"
+            android:icon="@drawable/ic_baseline_stop_24"
+            android:title="Convert Temperature" />
+
+
+    </group>
+
+
+</menu>
